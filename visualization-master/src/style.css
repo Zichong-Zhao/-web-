@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'FX-LED';
+  src: url('./assets/fonts/FX-LED.ttf')
+}
+
+  /* 自定义字体大小 */
+  .text-24 {
+    font-size: 24px;
+  }
+  .text-16 {
+    font-size: 16px;
+  }
+  
+  /* 自定义颜色 */
+  .text-light-blue {
+    color: lightblue;
+  }
+  
+  /* 天蓝色 */
+  .text-sky-blue {
+    color: skyblue;
+  }
+  
+  /* 渐变蓝 */
+  .text-gradient-blue {
+    background: linear-gradient(to bottom, #bbdcf2, #4590c3);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
